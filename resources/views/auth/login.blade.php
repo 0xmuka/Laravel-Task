@@ -1,5 +1,6 @@
 @include('auth.layouts.header')
 
+
   <body>
     <!-- Content -->
     <div class="container-xxl">

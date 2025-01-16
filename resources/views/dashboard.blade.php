@@ -1,1 +1,2 @@
-@include('layouts.main')
+@extends('layouts.main')
+
