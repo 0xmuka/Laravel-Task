@@ -62,16 +62,41 @@
 
     <ul class="menu-inner py-1">
 
-      <!-- User interface -->
+      <!-- Slider  -->
       <li class="menu-item">
         <a href="javascript:void(0)" class="menu-link menu-toggle">
           <i class="menu-icon tf-icons bx bx-box"></i>
-          <div class="text-truncate" data-i18n="User interface">User interface</div>
+          <div class="text-truncate" data-i18n="Slider">Sliders</div>
         </a>
         <ul class="menu-sub">
           <li class="menu-item">
-            <a href="{{ url('/') }}" class="menu-link">
-              <div class="text-truncate" data-i18n="Accordion">Accordion</div>
+            <a href="{{ url('/sliders') }}" class="menu-link">
+              <div class="text-truncate" data-i18n="Slieder">Show Sliders</div>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="{{ url('/sliders/create') }}" class="menu-link">
+              <div class="text-truncate" data-i18n="Slider">Add New Slider</div>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Categories -->
+      <li class="menu-item">
+        <a href="javascript:void(0)" class="menu-link menu-toggle">
+          <i class="menu-icon tf-icons bx bx-box"></i>
+          <div class="text-truncate" data-i18n="Categories">Categories</div>
+        </a>
+        <ul class="menu-sub">
+          <li class="menu-item">
+            <a href="{{ route('categories.index') }}" class="menu-link">
+              <div class="text-truncate" data-i18n="Categories">Show Categories</div>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="{{ route('categories.create') }}" class="menu-link">
+              <div class="text-truncate" data-i18n="Categories">Add New Category</div>
             </a>
           </li>
         </ul>

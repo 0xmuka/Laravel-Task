@@ -12,7 +12,7 @@
           <!-- / Navbar -->
 
           <!-- Content wrapper -->
-            @include('layouts.content')
+            @yield('content')
           <!-- Content wrapper -->
         </div>
         <!-- / Layout page -->
